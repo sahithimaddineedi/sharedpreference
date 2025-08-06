@@ -26,6 +26,7 @@ class _PreferenceDemoState extends State<PreferenceDemo> {
   String language = 'en';
   String email = '';
   int lastViewedId = 0;
+  int val = 0;
 
   @override
   void initState() {
