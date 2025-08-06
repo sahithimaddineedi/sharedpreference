@@ -51,12 +51,12 @@ class _PreferenceDemoState extends State<PreferenceDemo> {
     await prefs.setString('email', 'example@mail.com');
     await prefs.setInt('lastViewedItemId', 2025);
 
-    _loadPrefs(); // Refresh UI
+    _loadPrefs();
   }
 
   Future<void> _clearPrefs() async {
     await prefs.clear();
-    _loadPrefs(); // Refresh UI
+    _loadPrefs();
   }
 
   @override
